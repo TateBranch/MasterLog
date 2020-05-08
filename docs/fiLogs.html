@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <!--*********************************************
+        *                 Imports
+        **********************************************-->
+        <title>SpreadSheets</title>
+        <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/main.css">
+        
+        <!-- Javascript -->
+        <script src="./js/externalLibs/jquery-3.4.1.min.js"></script>
+        <script src="./js/externalLibs/d3.min.js"></script>
+
+        <script src="./js/fiLogs.js"></script>
+        
+    </head>
+    <body>
+       	<a href="index.html"><div class="homeButton"></div></a>
+        <div id="currentTitle"></div>
+
+       	<div id="errorText">Please Select a Spreadsheet Below</div>
+        <iframe id="currentSpreadsheet"></iframe>
+
+      	<div style="width: 846px;margin: 10px auto;">
+			<div class="dropDownContainer">
+				<div class="otherText">Artesia:</div>
+				<div id="artesiaDropDown"></div>
+			</div>
+			<div class="dropDownContainer">
+				<div class="otherText">Carlsbad:</div>
+				<div id="carlsbadDropDown"></div>
+			</div>
+			<div class="dropDownContainer">
+				<div class="otherText">Hobbs:</div>
+				<div id="hobbsDropDown"></div>
+			</div>
+        </div>
+    </body>
+
+    <script>
+        $( document ).ready(function() {
+            init();
+        });
+    </script>
+</html>
