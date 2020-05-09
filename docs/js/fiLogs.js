@@ -8,8 +8,8 @@ function init(){
 
         // set the current sheet
         d3.select("#currentSpreadsheet").attr("src",sheets.currentSheetURL)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 		
 		d3.select("#errorText").style("top",(parseInt($(window).height())-185)/2);
 		d3.select("#errorText").style("left",(parseInt($(window).width())-550)/2);
@@ -73,8 +73,8 @@ function artesiaChangeSheet(){
 	if(value == "0"){
 		d3.select("#currentTitle").html("Finance & Insurance");
 		d3.select("#currentSpreadsheet").attr("src",null)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 		d3.select("#errorText").style("display",null);
 		return;
 	}
@@ -83,8 +83,8 @@ function artesiaChangeSheet(){
 
     // Change the url
     d3.select("#currentSpreadsheet").attr("src",value.url)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 	
 	
 }
@@ -99,8 +99,8 @@ function carlsbadChangeSheet(){
 	if(value == "0"){
 		d3.select("#currentTitle").html("Finance & Insurance");
 		d3.select("#currentSpreadsheet").attr("src",null)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 		d3.select("#errorText").style("display",null);
 		return;
 	}
@@ -110,8 +110,8 @@ function carlsbadChangeSheet(){
 
     // Change the url
     d3.select("#currentSpreadsheet").attr("src",value.url)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 }
 
 function hobbsChangeSheet(){
@@ -124,8 +124,8 @@ function hobbsChangeSheet(){
 	if(value == "0"){
 		d3.select("#currentTitle").html("Finance & Insurance");
 		d3.select("#currentSpreadsheet").attr("src",null)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 		d3.select("#errorText").style("display",null);
 		return;
 	}
@@ -134,6 +134,6 @@ function hobbsChangeSheet(){
 
     // Change the url
     d3.select("#currentSpreadsheet").attr("src",value.url)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 }
