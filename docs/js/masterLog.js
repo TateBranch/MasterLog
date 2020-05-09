@@ -9,8 +9,8 @@ function init(){
 
         // set the current sheet
         d3.select("#currentSpreadsheet").attr("src",sheets.currentSheetURL)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+            .attr("width",parseInt($(window).width())-2)
+            .attr("height",parseInt($(window).height())-28);
 
 
         // create the dropdown list
@@ -37,6 +37,6 @@ function changeSheet(){
 
     // Change the url
     d3.select("#currentSpreadsheet").attr("src",value.url)
-            .attr("width",parseInt($(window).width())-50)
-            .attr("height",parseInt($(window).height())-200);
+		.attr("width",parseInt($(window).width())-2)
+		.attr("height",parseInt($(window).height())-28);
 }

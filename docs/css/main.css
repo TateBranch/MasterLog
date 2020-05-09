@@ -127,5 +127,6 @@
 }
 #bottomSlideBar:hover{
 	color: aqua;
+	border: 1px solid aqua;
 	cursor: pointer;
 }
