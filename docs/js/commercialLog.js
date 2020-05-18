@@ -1,7 +1,7 @@
 let sheets = null;
 
 function init(){
-    $.getJSON("./json/CommercialLog.json", function(result){
+    $.getJSON("./json/commercialLog.json", function(result){
         sheets = result;
 
         // set the title
