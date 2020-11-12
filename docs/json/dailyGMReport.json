@@ -1,10 +1,21 @@
 {
-    "currentSheetTitle":"Daily GM Report",
-    "currentSheetURL":"https://docs.google.com/spreadsheets/d/1lxKSyYICbdsoUWCH7tMmMqNdz0bxVTXFL3njErSJ5Xw/edit?usp=sharing",
-    "otherSheets":[
-        {
-            "title":"Daily GM Report",
+	"artesia":[
+		{
+            "title":"Artesia GM Report",
             "url":"https://docs.google.com/spreadsheets/d/1lxKSyYICbdsoUWCH7tMmMqNdz0bxVTXFL3njErSJ5Xw/edit?usp=sharing"
         }
-    ]
+
+	],
+	"carlsbad":[
+		{
+            "title":"Carlsbad GM Report",
+            "url":"https://docs.google.com/spreadsheets/d/1-gim6eYR1m6ceJu2KCKR85_giuUaTONMUWN0D6xyCQw/edit?usp=sharing"
+        }
+	],
+	"hobbs":[
+		{
+            "title":"Hobbs GM Report",
+            "url":"https://docs.google.com/spreadsheets/d/1j6HLoE_NH0uGsvnxDvY2cXxe3d_Xhad69TwUQ4wPGDs/edit?usp=sharing"
+        }
+	]
 }
